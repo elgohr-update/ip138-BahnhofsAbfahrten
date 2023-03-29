@@ -119,7 +119,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: docker
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         env:
           DOCKER_BUILDKIT: 1
         with:
